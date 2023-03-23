@@ -4,7 +4,7 @@
 	ARGS : None
 	DESC : Opens TCP port 1521 on the Windows Defender Firewall for Oracle
 #>
-# Prep the system for Db2 FireWall rules
+# Prep the system for Oracle FireWall rules
 New-NetFirewallRule `
     -DisplayName "Oracle Data Server" `
     -Group "SCOM" `
